@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="../styles/form.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+  <main>
+    <section class="form-body-section">
+      <div class="header-container">
+        <h1>Stay updated!</h1>
+      </div>
+
+      <span class="join-pm-text">Join 60,000+ product managers receiving monthly updates on:</span>
+
+      <div class="checkmark-items-container">
+        <div>
+          <img src="/assets/images/icon-list.svg"/>
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div>
+          <img src="/assets/images/icon-list.svg"/>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div>
+          <img src="/assets/images/icon-list.svg"/>
+          <p>And much more!</p>
+        </div>
+      </div>
+
+      <form class="email-input-section js-email-input-section">
+        <div>
+          <label for="email-input">
+            Email address
+          </label>
+          <span class="js-valid-email-text">
+            Valid email required
+          </span>
+        </div>
+
+        <input
+          id="email-input" 
+          type="email"
+          required
+          class="js-input-field input-field"
+          placeholder="email@company.com"
+        />
+
+        <button class="js-button">
+          Subscribe to monthly newsletter
+        </button>
+      </form>
+    </section>
+
+    <section class="form-image-section">
+      <img class="desktop-image" src="../assets/images/illustration-sign-up-desktop.svg"/>
+
+      <img class="mobile-image" src="../assets/images/illustration-sign-up-mobile.svg"/>
+    </section>
+  </main>
+</body>
+
+<script src="../scripts/form.js" type="module"></script>
+</html>
