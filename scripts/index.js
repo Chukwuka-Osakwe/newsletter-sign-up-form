@@ -37,7 +37,7 @@ emailForm.addEventListener("submit", (e) => {
 
     localStorage.setItem("userEmail", email);
     //navigate to new page
-    window.location.href = "../templates/success.html";
+    window.location.href = "../docs/success.html";
   } else {
     console.log("form is invalid.");
   }
